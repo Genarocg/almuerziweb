@@ -1,0 +1,19 @@
+
+.flex{
+    display: flex;
+    flex-flow: row wrap;
+    height: 200px;
+}
+.Primero
+{
+    flex:1 120px;
+    align-self: stretch ;
+}
+.segundo
+{
+flex-grow: 2;
+}
+.tercero
+{
+    flex-grow: 1;
+}

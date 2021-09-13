@@ -1,0 +1,51 @@
+body{
+    background-color: #ccc;
+}
+.box
+{
+background-color: white;
+text-align: center;
+width : 200px;
+border-left: solid red;
+box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+padding: 15px;
+transition:  0.5s 0.001s;
+margin: 10px 15px;
+
+
+}
+.box:hover{
+ 
+    transform: scale(1.05, 1.05);
+}
+.box2{
+    background-color: white;
+    text-align: center;
+    width : 200px;
+    border-left: solid green;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    transition:  0.5s 0.001s;
+margin: 10px 15px;
+
+}
+.box2:hover
+{
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
+
+}
+.box3{
+    background-color: white;
+    text-align: center;
+    width : 200px;
+    border-left: solid blue;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    transition:  0.5s 0.001s;
+margin: 10px 15px;
+
+}
+.box3:hover
+{
+    background-color: royalblue;
+}

@@ -1,0 +1,80 @@
+body{
+    background-color: brown;
+}
+#app {
+    display: flex;
+
+}
+#app div{
+    flex-grow: 1;
+    background-color: white;
+    margin: 5px;
+    margin-top: 0px;
+    margin-right: 0px;
+    
+}
+#meals{
+    margin-left:0px
+}
+#orders{
+    margin-right:0px;
+}
+ul{
+    list-style-type: none;
+}
+#enviar{
+    background-color: #4aadd8;
+    color: white;
+    padding: 10px 15px;
+    border: solid 0px;
+    border-radius: 25px;
+    margin:15px;
+    margin-left: 38px;
+}
+#enviar:disabled{
+    background-color: cadetblue;
+}
+#meals-list li{
+    cursor: pointer;
+}
+.selected{
+    background-color: #eee;
+}
+#app .form-main {
+    max-width: 300px;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 15px;
+    padding-bottom: 30px;
+
+}
+.login-form p {
+ margin-bottom: 5px;
+ font-size: 14px;
+}
+form input{
+    width: calc(100% - 10px);
+    height: 24px;
+    padding-left: 5px;
+    background-color: #dedede;
+    border: solid 0px ;
+    border-radius: 4px;
+    color: #555;
+}
+.btn{
+    border: solid 0px;
+    padding: 10px 15px ;
+    background-color: #2280cc;
+    color: white;
+    border-radius: 4px;
+    margin-top: 15px ;
+}
+
+.block {
+    width: calc(100% - 4px);
+}
+.form-title{
+    text-align: center;
+    font-size:24px ;
+  
+}

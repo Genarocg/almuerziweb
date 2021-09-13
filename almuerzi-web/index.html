@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Almuerzi Web</title>
+    <link rel="stylesheet" href="main.css" type="text/css"/>
+</head>
+<body>
+    <div id="app"></div>
+</body>
+<template id="login-template">
+    <div class="form-main">
+        <p class= "form-title">Inicia Sesión</p>
+        <form action="" id="login-form" class="login-form">
+            <div>
+                <p>Email: </p>
+            <input id="email" type="text" placeholder="Email"/>
+        </div>  
+        <div>
+            <p>Contraseña:</p>
+            <input  id="password" type="password" placeholder="Contraseña"/>
+        </div>
+        <div>
+            <button class="btn block">Enviar</button>
+
+        </div>
+
+        </form>
+    </div>
+</template>
+
+
+
+<template id="orders-view">
+    <div id= "meals">
+        <ul id= "meals-list">
+           <p>Cargando...</p>
+        </ul>
+        
+        <form action="" id="order" >
+            <input type="hidden" id="meals-id"/>
+            <button name="" id="enviar" disabled>Enviar </button> 
+        </form>
+    </div>
+        <div id= "orders">
+        <ul id= "orders-list">
+           <p>cargando...</p>
+        </ul>
+        </div>
+</template>
+<script src="main.js"></script>
+</html>
